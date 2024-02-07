@@ -1,4 +1,4 @@
-### Issue description
+### Issue description:
 Tell us what should happen and what happens instead
 
 ### Example code
