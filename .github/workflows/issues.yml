@@ -22,5 +22,5 @@ jobs:
             -X POST \
             -H "Accept: application/vnd.github.inertia-preview+json" \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/projects/columns/<COLUMN_ID>/cards \
+            https://api.github.com/projects/columns/91974006/cards \
             -d "{\"content_id\": $number, \"content_type\": \"Issue\", \"note\": \"Updated date field: $current_date\"}"
