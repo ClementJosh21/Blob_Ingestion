@@ -21,6 +21,6 @@ jobs:
           curl \
             -X POST \
             -H "Accept: application/vnd.github.inertia-preview+json" \
-            -H "Authorization: Bearer $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" \
+            -H "Authorization: Bearer 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" \
             https://api.github.com/projects/columns/91974006/cards \
             -d "{\"content_id\": $number, \"content_type\": \"Issue\", \"note\": \"Updated date field: $current_date\"}"
