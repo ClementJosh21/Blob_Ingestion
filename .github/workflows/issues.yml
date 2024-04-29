@@ -1,8 +1,6 @@
 name: Update Date Field in Project
 
-on:
-  project_column:
-    types: [updated]
+on: [project_column]
 
 jobs:
   issues:
