@@ -5,7 +5,7 @@ on:
     types: [updated]
 
 jobs:
-  update-date-field:
+  issues:
     runs-on: ubuntu-latest
     steps:
       - name: Check if field is changed
